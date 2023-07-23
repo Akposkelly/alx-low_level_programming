@@ -3,23 +3,27 @@
 #include <time.h>
 
 /**
- * main - entry point
+ * main - print alphabets in lowercase
  * Return: 0 Always (success)
  */
 
 int main(void)
 {
-	char low, e, q;
+	char low;
 
-	e = 'e';
-	q = 'q';
 
-	for (low = 'a'; low <= 'Z'; low++)
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (low != e && low != q)
+		if (low != 'q' && low != 'e')
+		{
+
 		putchar(low);
+
+		}
 	}
 
 	putchar('\n');
+
+
 	return (0);
 }
