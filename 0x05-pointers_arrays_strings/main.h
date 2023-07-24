@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <unistd.h>
+/* any other necessary includes or macro definition can be added here */
 
 int _putchar(char C);
 void reset_to_98(int *n);
@@ -16,4 +17,4 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src
 
-#endif
+#endif /* MAIN_H */
